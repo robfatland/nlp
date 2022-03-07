@@ -1,22 +1,26 @@
 # Natural Language Processing on the public cloud
 
-We tend to work on the cloud; by which we mean AWS, Azure, GCP, and others. 
+This tutorial covers building and running a Natural Language Processing (NLP) analysis on the cloud.
 
-This repository is about creating a working environment on the cloud; where we can do a little natural language processing.
 
 # Part 1: Preparation
 
-This is presented in outline 'plan' form. I am skipping details for now.
-
-- Set aside a couple hundred dollars (cloud credits or actual money) to pay for some cloud use
-- Get a cloud account or subscription
-- Learn about cloud security and cost management and follow best practices: 8 hours of "cloud 101" training to start with
-- Set up an Ubuntu Linux virtual machine on the cloud; and log in to that VM
-- Install Python and a Jupyter notebook server
-- Clone this repository on that environment
-- Connect to the Jupyter notebook server via secure **`ssh`** connection
-- Open the **`nlp.ipynb`** notebook
+- Set aside a couple hundred dollars (ideally in cloud credits) supporting a cloud account or subscription: AWS, Azure, GCP etcetera
+- Learn about cloud security and cost management; follow best practices: Plan on eight hours of "cloud 101" training to start with
+    - Links here
+- Set up a modest Ubuntu Linux virtual machine on the cloud; and log in to that VM using **`ssh`**
+- Install Python and a Jupyter notebook server (Miniconda)
+- Clone this repository onto that machine
+- Start its Jupyter notebook server and connect, again using a secure **`ssh`** connection
+- Open the **`nlp.ipynb`** notebook and follow the notes in **Part 2**
 
 # Part 2: Natural Language Processing
 
-- Run the notebook!
+- Open the nlp notebook
+
+
+# Notes from Alice Zhao's Tutorial
+
+* [YouTube link](https://youtu.be/xvqsFTUsOmc) for a two-hour tutorial
+* [GitHub link](https://github.com/adashofdata), particularly 
+[the Python NLP tutorial at this link](https://github.com/adashofdata/nlp-in-python-tutorial.git)
