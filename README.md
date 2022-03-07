@@ -32,9 +32,10 @@ This tutorial covers building and running a Natural Language Processing (NLP) an
 
 ## Notes from Alice Zhao's Tutorial
 
-* [YouTube link](https://youtu.be/xvqsFTUsOmc) for a two-hour tutorial
-* [GitHub link](https://github.com/adashofdata), particularly 
-* These notes are taken directly from that lecture
+* [YouTube link](https://youtu.be/xvqsFTUsOmc) for Alice Zhao's two-hour tutorial
+* [GitHub link](https://github.com/adashofdata/nlp-in-python-tutorial.git)  
+* These notes are from that lecture
+* Natural language in this case will refer to language (the data) in text files
 * Sentiment analysis introduced: Distillation of collective sentiment from a sea of words
 * Topic modeling introduced: How many topics live in your Inbox?
 * Text generation introduced: Creating text that perhaps makes sense
@@ -47,17 +48,33 @@ This tutorial covers building and running a Natural Language Processing (NLP) an
         * For Data: pandas, sklearn, re (regular expressions)
         * NLP: nltk, TextBlob, gensim
     * Math, Statistics
-        * Clean the data to arrive at: the corpus and the document-term matrix
+        * Clean the data to arrive at: the corpus and the document-term matrix (two data structures corresponding to the text)
         * Exploratory Data Analysis (EDA): word counts
         * NLP: As noted, sentiment analysis, topic modeling, text generation
     * Communication
         * Design: Scope, visualize, extract insights
         * Domain: Expertise 
-* Data Science Workflow
-    * Start with a question
-    * Get, clean data
-    * EDA
-    * Apply some technique
-    * Share insights
+* Data Science Workflow: Question / Data acquisition and cleaning / EDA / Apply technique(s) / Share insights
+* Data acquisition and storage tools in Python
+    * Python web scraping: Requests (gets everything), Beautiful Soup (pulls out just transcripts)
+    * Saving Data: Pickle to serialize data for later use
+* Data formats (cleaning)
+    * Corpus is a collection of texts
+        * pandas DataFrame to be used to store the corpus
+            * Two columns: source identifier column and text column
+                * Note entries in that second column are long strings of text
+    * Document term matrix 
+        * Clean text
+            * using regex: remove punctuation, convert to all lower case, remove any terms that contain numbers
+        * Tokenize text
+            * break down into smaller parts: in this case by *word*: Every word is now an item.
+            * remove stop words: they do not add much meaning
+            * we are now in 'bow' bag of words format
+        * Put the resulting words in matrix format
+            * First column is source identifier
+            * Subsequent columns are all possible tokens
+            * matrix entries are number of occurrences of the token in that identified (row) source
+
+
 
 
