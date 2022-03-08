@@ -10,6 +10,7 @@ This tutorial covers building and running a Natural Language Processing (NLP) an
     - Taking this on in earnest: One should plan on eight hours of "cloud 101" training to start with
     - Links here...
 - Set up a modest Ubuntu Linux virtual machine on the cloud; and log in to that VM using **`ssh`**
+- Update the machine: **`sudo apt-get update -y && sudo apt-get upgrade -y`**
 - On that machine: Install Python and a Jupyter notebook server (for example Anaconda or Miniconda)
 - Clone [this repository](https://github.com/robfatland/nlp)
 - Clone [Alice Zhao's Python NLP tutorial repository](https://github.com/adashofdata/nlp-in-python-tutorial.git)
