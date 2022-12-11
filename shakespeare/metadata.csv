@@ -3,8 +3,8 @@
 2_king_henry_iv.txt,H,N
 2_king_henry_vi.txt,H,N
 3_king_henry_vi.txt,H,N
-a_midsummer_night's_dream.txt,C,Y
-all's_well_that_ends_well.txt,C,N
+a_midsummer_nights_dream.txt,C,Y
+alls_well_that_ends_well.txt,C,N
 antony_and_cleopatra.txt,T,N
 as_you_like_it.txt,C,N
 comedy_of_errors.txt,C,N
@@ -18,7 +18,7 @@ king_john.txt,H,N
 king_lear.txt,T,N
 king_richard_ii.txt,H,N
 king_richard_iii.txt,H,N
-love's_labours_lost.txt,C,N
+loves_labours_lost.txt,C,N
 macbeth.txt,T,N
 measure_for_measure.txt,C,N
 merchant_of_venice.txt,C,N
@@ -33,4 +33,4 @@ titus_andronicus.txt,T,N
 troilus_and_cressida.txt,T,N
 twelfth_night.txt,C,N
 two_gentlemen_of_verona.txt,C,N
-winter's_tale.txt,C,N
+winters_tale.txt,C,N
